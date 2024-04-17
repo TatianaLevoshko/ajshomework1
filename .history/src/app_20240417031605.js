@@ -6,6 +6,4 @@ const characters = [
   ];
   
 const alive = characters.filter(item => item.health > 0);
-alive.forEach((character) => {
-    console.log(`${character.name} is alive with ${character.health} health.`);
-});
+  
